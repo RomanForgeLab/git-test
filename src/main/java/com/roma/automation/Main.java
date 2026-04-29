@@ -2,6 +2,7 @@ package com.roma.automation;
 
 import com.roma.automation.user1.Morning;
 import com.roma.automation.user2.Noon;
+import com.roma.automation.user3.Evening;
 
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -23,9 +24,12 @@ public class Main {
 
         Morning m = new Morning();
         m.morningCoding(11);
-        
+
         Noon n = new Noon();
         n.noonCoding(12);
+
+        Evening e = new Evening();
+        e.eveningCoding(18);
 
     }
 }
